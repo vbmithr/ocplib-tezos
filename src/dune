@@ -1,0 +1,7 @@
+(library
+ (name        ocplib_tezos)
+ (public_name ocplib-tezos)
+ (libraries  ocplib-json-typed zarith ez-api)
+ (modules TzscanConfig Tezos_constants Tezos_encoding Tezos_types Tezos_utils)
+ (wrapped false)
+ (synopsis ""))
